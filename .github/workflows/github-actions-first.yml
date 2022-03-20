@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: GitHub Actions First
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -23,7 +23,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: docker --version
-
-
-
-
